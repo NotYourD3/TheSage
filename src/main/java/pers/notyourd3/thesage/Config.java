@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package pers.notyourd3.thesage;
 
 import java.util.List;
 import java.util.Set;
