@@ -1,0 +1,15 @@
+{
+    "item.thesage.raw_entropium":"熵原",
+    "item.thesage.entropium_ingot":"熵素锭",
+    "item.thesage.wrought_entropium_ingot":"精炼熵素锭",
+    "creativemodetab.thesage":"夏姬八想",
+    "item.thesage.soul_fragment":"灵魂碎片",
+    "item.thesage.soul_stealer":"窃魂剜刀",
+    "item.thesage.ladder_helper": "魔偶【搭梯】",
+    "item.thesage.furnace_helper": "魔偶【熔炼】",
+    "block.thesage.entropium_ore": "下界熵素矿石",
+    "block.thesage.soul_forge": "灵魂熔炉",
+    "enchantment.thesage.pickup_range_extend": "拾取范围+",
+    "thesage.sftp.boom": "非常危险，请防止小孩误食。轻拿轻放！",
+    "item.thesage.tatp": "熵炸药"
+}

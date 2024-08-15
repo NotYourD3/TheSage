@@ -1,0 +1,16 @@
+{
+
+    "item.thesage.raw_entropium":"Raw Entropium",
+    "item.thesage.entropium_ingot":"Entropium Ingot",
+    "item.thesage.wrought_entropium_ingot":"Wrought Entropium Ingot",
+    "item.thesage.soul_fragment":"Soul Fragment",
+    "item.thesage.soul_stealer":"Soul Stealer",
+    "item.thesage.ladder_helper": "Puppet",
+    "item.thesage.furnace_helper": "I cant speak English",
+    "item.thesage.tatp": "TATP",
+    "block.thesage.entropium_ore": "Nether Entropium Ore",
+    "block.thesage.soul_forge": "Soul Forge",
+    "creativemodetab.thesage":"Random Thinking",
+    "enchantment.thesage.pickup_range_extend": "Pick-up Range+",
+    "thesage.sftp.boom":"VERY DANGEROUS."
+}
