@@ -1,4 +1,4 @@
-package pers.notyourd3.thesage.blocks.custom;
+package pers.kathelotus.thesage.blocks.custom;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -22,7 +22,7 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
-import pers.notyourd3.thesage.blocks.entity.custom.PedestalEntity;
+import pers.kathelotus.thesage.blocks.entity.custom.PedestalEntity;
 
 public class Pedestal extends BaseEntityBlock {
     private static final VoxelShape SHAPE = makeShape();

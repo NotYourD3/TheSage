@@ -1,4 +1,4 @@
-package pers.notyourd3.thesage.blocks.entity.render;
+package pers.kathelotus.thesage.blocks.entity.render;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
@@ -11,7 +11,7 @@ import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import pers.notyourd3.thesage.blocks.entity.custom.PedestalEntity;
+import pers.kathelotus.thesage.blocks.entity.custom.PedestalEntity;
 
 public class PedestalRenderer implements BlockEntityRenderer<PedestalEntity> {
     public PedestalRenderer(BlockEntityRendererProvider.Context pContext){

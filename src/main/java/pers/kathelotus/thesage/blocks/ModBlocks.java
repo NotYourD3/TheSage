@@ -1,4 +1,4 @@
-package pers.notyourd3.thesage.blocks;
+package pers.kathelotus.thesage.blocks;
 
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -11,12 +11,13 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import pers.notyourd3.thesage.blocks.custom.Pedestal;
-import pers.notyourd3.thesage.items.ModItems;
+import pers.kathelotus.thesage.blocks.custom.Altar;
+import pers.kathelotus.thesage.blocks.custom.Pedestal;
+import pers.kathelotus.thesage.items.ModItems;
 
 import java.util.function.Supplier;
 
-import static pers.notyourd3.thesage.TheSage.MODID;
+import static pers.kathelotus.thesage.TheSage.MODID;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
@@ -24,6 +25,7 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(2,6),
                     BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
     public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal", Pedestal::new);
+    public static final DeferredBlock<Block> ALTAR = registerBlock("altar", Altar::new);
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

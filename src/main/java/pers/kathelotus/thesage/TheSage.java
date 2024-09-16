@@ -1,4 +1,4 @@
-package pers.notyourd3.thesage;
+package pers.kathelotus.thesage;
 
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import org.slf4j.Logger;
@@ -16,12 +16,12 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import pers.notyourd3.thesage.blocks.ModBlocks;
-import pers.notyourd3.thesage.blocks.entity.ModBlockEntities;
-import pers.notyourd3.thesage.blocks.entity.render.PedestalRenderer;
-import pers.notyourd3.thesage.items.ModCreativeModeTab;
-import pers.notyourd3.thesage.items.ModItems;
-import pers.notyourd3.thesage.villagers.ModVillagers;
+import pers.kathelotus.thesage.blocks.ModBlocks;
+import pers.kathelotus.thesage.blocks.entity.ModBlockEntities;
+import pers.kathelotus.thesage.blocks.entity.render.PedestalRenderer;
+import pers.kathelotus.thesage.items.ModCreativeModeTab;
+import pers.kathelotus.thesage.items.ModItems;
+import pers.kathelotus.thesage.villagers.ModVillagers;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(TheSage.MODID)

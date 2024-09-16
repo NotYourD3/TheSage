@@ -1,4 +1,4 @@
-package pers.notyourd3.thesage.blocks.entity.custom;
+package pers.kathelotus.thesage.blocks.entity.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
@@ -14,8 +14,9 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.items.ItemStackHandler;
-import pers.notyourd3.thesage.TheSage;
-import pers.notyourd3.thesage.blocks.entity.ModBlockEntities;
+import pers.kathelotus.thesage.blocks.entity.ModBlockEntities;
+import pers.kathelotus.thesage.TheSage;
+
 @EventBusSubscriber(modid = TheSage.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class PedestalEntity extends BlockEntity {
     private final ItemStackHandler itemHandler = new ItemStackHandler(1);

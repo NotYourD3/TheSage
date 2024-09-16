@@ -1,4 +1,4 @@
-package pers.notyourd3.thesage.villagers;
+package pers.kathelotus.thesage.villagers;
 
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.core.Holder;
@@ -8,8 +8,8 @@ import net.minecraft.world.entity.ai.village.poi.PoiType;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import pers.notyourd3.thesage.TheSage;
-import pers.notyourd3.thesage.blocks.ModBlocks;
+import pers.kathelotus.thesage.TheSage;
+import pers.kathelotus.thesage.blocks.ModBlocks;
 
 import java.util.function.Predicate;
 import java.util.function.Supplier;
